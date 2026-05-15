@@ -1,7 +1,9 @@
 # Agentity
 
-**The identity layer for AI agents.**  
-**La couche d'identité des agents IA.**
+| 🇬🇧 [English](README.md) | 🇫🇷 [Français](README.fr.md) |
+|---|---|
+
+**The identity layer for AI agents. — La couche d'identité des agents IA.**
 
 ---
 
@@ -19,14 +21,6 @@ An open source cryptographic identity protocol for AI agents, built on three fun
 2. **What are you allowed to do?** → Scopes validated against provider manifests  
 3. **Who answers for your actions?** → Delegation chain rooted in a human verified via OIDC  
 
-### Principles
-
-- **No infrastructure required** — identity is self-contained in the token, no central database needed  
-- **Self-sovereign** — the registry is self-hostable (memory, PostgreSQL, Docker)  
-- **Compatible** — Python + TypeScript SDKs, FastAPI + Express middleware, MCP + A2A plugins  
-- **Secure** — anti-replay, rate limiting, key rotation, signed audit logs, OIDC owner verification  
-- **Open source** — Apache 2.0, zero vendor lock-in  
-
 ---
 
 ## Français
@@ -42,14 +36,6 @@ Un protocole open source d'identité cryptographique pour agents IA, basé sur t
 1. **Qui es-tu ?** → Identité vérifiable via clé Ed25519 + DID auto-signé  
 2. **Qu'as-tu le droit de faire ?** → Scopes validés contre le manifeste du fournisseur  
 3. **Qui répond de tes actes ?** → Chaîne de délégation remontant à un humain vérifié via OIDC  
-
-### Principes
-
-- **Sans infrastructure** — l'identité est auto-portée par le token, pas besoin de base de données centrale  
-- **Souverain** — le registre est auto-hébergeable (memory, PostgreSQL, Docker)  
-- **Compatible** — SDKs Python et TypeScript, middlewares FastAPI et Express, plugins MCP et A2A  
-- **Sécurisé** — anti-replay, rate limiting, rotation de clés, audit log signé, OIDC owner verification  
-- **Open source** — Apache 2.0, zéro vendor lock-in  
 
 ---
 
